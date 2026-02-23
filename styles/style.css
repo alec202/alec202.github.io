@@ -1,17 +1,34 @@
 body {
+    padding: 1rem;
     background-color: black;
     color: plum;
+    font-size: 1.5rem;
 }
+
 
 section span {
     color: white;
 }
 
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* each section generic */
 section header {
     display: flex;
     justify-content: left;
     align-items: center;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
+}
+
+section header h2 {
+    margin: 2rem 0.75rem 2rem 0;
+}
+
+section div {
+    padding: 1rem;
 }
 
 section header span {
@@ -28,7 +45,6 @@ nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     list-style-type: none;
     margin: 0;
 }
@@ -39,4 +55,27 @@ nav li {
 
 nav a {
     font-size: 1.5rem
+}
+
+/* Skills section */
+
+.skills-container > h3 {
+    margin-bottom: 1rem;
+}
+
+.skills-card {
+    margin-left: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13rem;
+    height: 6rem;
+    border: 2px solid rgb(140, 56, 182);
+    padding-right: 5px;
+    font-size: 1.1em;
+}
+
+.skills-card img {
+    width: 100%;
+    height: 100%;
 }
