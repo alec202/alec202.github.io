@@ -7,9 +7,28 @@ class CategorizedSkills {
 }
 
 class individualSkill {
-    constructor() {
+    constructor(name, img, type) {
         this.name;
         this.img;
+        this.type;
     }
 }
-const categorizedSkills = CategorizedSkills();
+
+function createAllSkills() {
+    
+    const skills = [
+        {
+            name: "TypeScript",
+            imgSrc: "alec202.github.io/imgs/typescript_logo.png",
+            type: "language"
+        },
+        {
+            name: "JavaScript",
+            imgSrc: "alec202.github.io/imgs/javascript_logo.png",
+            type: "language"
+        }
+    ];
+
+}
+
+const categorizedSkills = new CategorizedSkills();
