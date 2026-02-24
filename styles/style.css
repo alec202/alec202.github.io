@@ -3,8 +3,6 @@ body {
     background-color: #0a0a0a;
     color: #cccccc;
     font-size: 1.5rem;
-    width: 100vw;
-    height: 100vh;
 }
 
 html {
@@ -25,18 +23,25 @@ section span {
 h1,
 h2,
 h3 {
-    font-size: 3rem;
     font-weight: bold;
     color: #ffffff;
 }
 
+h2 span {
+    color: #f48fb1;
+}
+
 /* Navigation Menu */
 nav {
-    position: sticky;
+    position: fixed;
     inset: 0;
     border-bottom: 3px solid white;
     background-color: #0a0a0a;
     height: 6vh;
+    width: 100vw;
+    padding-top: 1vh;
+    padding-right: 5px;
+    margin: 0;
 }
 
 nav ul {
@@ -45,14 +50,16 @@ nav ul {
     align-items: center;
     list-style-type: none;
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 
 
-/* style navigation menu */
+/* style navigation menu { */
 nav a {
     font-size: 1.8rem;
-    color: #ff2d78;
+    color: #f48fb1;
 }
 
 nav a:hover {
@@ -78,10 +85,13 @@ nav li:last-of-type {
     border-left: 1px solid white;
 }
 
+/* End of Nav style } */
+
+
 /* each section generic */
 section {
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    min-height: 94vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,22 +126,64 @@ section header span {
     margin-left: 0.5rem
 }
 
+/* landing page */
+#landing h1 {
+    font-size: 3.5rem;
+    margin: 0;
+}
+#landing h3 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 1rem;
+}
+
+#landing button {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #ff85a2de;
+    border: 0.1rem solid #f44e85;
+}
+
+#landing button:hover {
+    cursor: pointer;
+    background-color: #f48fb1;
+    box-shadow: 0 0 1rem  #f48fb1;
+}
 
 /* Skills section */
 
-.skills-container>h3 {
-    margin-bottom: 1rem;
+#skills h3 {
+    margin-bottom: 0px;
 }
 
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.skills-card:first-of-type {
+    margin-left: 1.25rem;
+    
+}
 .skills-card {
-    margin-left: 2.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 13rem;
+    width: 14rem;
     height: 6rem;
-    border: 2px solid rgb(140, 56, 182);
-    padding-right: 5px;
+    gap: 1rem;
+    border: 1px solid #ef6291;
+    border-radius: 0.6rem;
+    padding: 0.1rem 0.6rem 0.1rem 0.1rem;
     font-size: 1.1em;
 }
 
@@ -139,3 +191,4 @@ section header span {
     width: 100%;
     height: 100%;
 }
+
