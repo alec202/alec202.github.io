@@ -10,13 +10,21 @@ Posted by Josh Crozier
 Retrieved 2026-02-25, License - CC BY-SA 3.0
 */
 
-html, body {
+html,
+body {
     height: 100%;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
 }
 
 
 body {
-    padding: 1rem;
     background-color: #0a0a0a;
     color: #cccccc;
     font-size: 1.5rem;
@@ -27,8 +35,10 @@ main {
     scroll-behavior: smooth;
     overflow-y: scroll;
     scroll-padding: 0;
-    height: 100vh;
-
+    height: 100%;
+    width: 100%;
+    margin: 1rem;
+    
 }
 
 section {
@@ -38,6 +48,7 @@ section {
 section span {
     color: white;
 }
+
 /* each section generic */
 section {
     /* width: 100vw; */
@@ -98,9 +109,8 @@ nav {
     background-color: #0a0a0a;
     height: 3.5rem;
     width: 100vw;
-    padding-top: 1vh;
-    padding-right: 5px;
     margin: 0;
+    overflow: hidden;
 }
 
 nav ul {
