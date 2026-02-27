@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/projects-section.css">
     <title>Alec - Software Developer</title>
 </head>
 
@@ -66,32 +67,32 @@
                 <div class="skills-container">
                     <h3>Languages:</h3>
                     <article class="skills-card">
-                        <img src="imgs/javascript-icon.svg" alt="JavaScript icon">
+                        <img src="imgs/icons/javascript-icon.svg" alt="JavaScript icon">
                         <p>JavaScript</p>
                     </article>
 
                     <article class="skills-card">
-                        <img src="imgs/typescript-icon.svg" alt="Typescript icon">
+                        <img src="imgs/icons/typescript-icon.svg" alt="Typescript icon">
                         <p>Typescript</p>
                     </article>
 
                     <article class="skills-card">
-                        <img src="imgs/python-icon.svg" alt="Python icon">
+                        <img src="imgs/icons/python-icon.svg" alt="Python icon">
                         <p>Python</p>
                     </article>
 
                     <article class="skills-card">
-                        <img src="imgs/c-icon.svg" alt="C icon">
+                        <img src="imgs/icons/c-icon.svg" alt="C icon">
                         <p>C</p>
                     </article>
 
                     <article class="skills-card">
-                        <img src="imgs/kotlin-icon.svg" alt="Kotlin icon">
+                        <img src="imgs/icons/kotlin-icon.svg" alt="Kotlin icon">
                         <p>Kotlin</p>
                     </article>
 
                     <article class="skills-card">
-                        <img src="imgs/swift-icon.svg" alt="Swift logo">
+                        <img src="imgs/icons/swift-icon.svg" alt="Swift logo">
                         <p>Swift</p>
                     </article>
                 </div>
@@ -99,27 +100,27 @@
                 <div class="skills-container">
                     <h3>Front End:</h3>
                     <article class="skills-card">
-                        <img src="imgs/html-icon.svg" alt="HTML icon">
+                        <img src="imgs/icons/html-icon.svg" alt="HTML icon">
                         <p>HTML</p>
                     </article>
                     <article class="skills-card">
-                        <img src="imgs/css-icon.svg" alt="CSS icon">
+                        <img src="imgs/icons/css-icon.svg" alt="CSS icon">
                         <p>CSS</p>
                     </article>
                     <article class="skills-card">
-                        <img src="imgs/vue-js-icon.svg" alt="Vue.JS icon">
+                        <img src="imgs/icons/vue-js-icon.svg" alt="Vue.JS icon">
                         <p>Vue.JS</p>
                     </article>
                     <article class="skills-card">
-                        <img src="./imgs/xml-green-icon.svg" alt="XML icon">
+                        <img src="./imgs/icons/xml-green-icon.svg" alt="XML icon">
                         <p>XML</p>
                     </article>
                     <article class="skills-card">
-                        <img src="./imgs/uikit-icon.svg" alt="UIKit icon">
+                        <img src="./imgs/icons/uikit-icon.svg" alt="UIKit icon">
                         <p>UIKit</p>
                     </article>
                     <article class="skills-card">
-                        <img src="imgs/jetpackcompose-icon.svg" alt="Jetpack Compose icon.">
+                        <img src="imgs/icons/jetpackcompose-icon.svg" alt="Jetpack Compose icon.">
                         <p>Jetpack Compose</p>
                     </article>
                 </div>
@@ -127,11 +128,11 @@
                 <div class="skills-container">
                     <h3>Back End:</h3>
                     <article class="skills-card">
-                        <img src="./imgs/database-icon.svg" alt="SQL icon">
+                        <img src="./imgs/icons/database-icon.svg" alt="SQL icon">
                         <p>SQL</p>
                     </article>
                     <article class="skills-card">
-                        <img src="imgs/firestore-icon.svg" alt="Firestore icon">
+                        <img src="imgs/icons/firestore-icon.svg" alt="Firestore icon">
                         <p>Firestore</p>
                     </article>
                 </div>
@@ -139,19 +140,20 @@
                 <div class="skills-container">
                     <h3>Tools:</h3>
                     <article class="skills-card">
-                        <img src="./imgs/git-icon.svg" alt="Git icon">
+                        <img src="./imgs/icons/git-icon.svg" alt="Git icon">
                         <p>Git</p>
                     </article>
                     <article class="skills-card">
-                        <img src="./imgs/github-icon.svg" alt="Github icon">
+                        <img src="./imgs/icons/github-icon.svg" alt="Github icon">
                         <p>Github</p>
                     </article>
+
                     <article class="skills-card">
-                        <img src="./imgs/jira-icon.svg" alt="Jira Icon">
+                        <img src="./imgs/icons/jira-icon.svg" alt="Jira Icon">
                         <p>Jira</p>
                     </article>
                     <article class="skills-card">
-                        <img src="./imgs/firebase-icon.svg" alt="Firebase icon">
+                        <img src="./imgs/icons/firebase-icon.svg" alt="Firebase icon">
                         <p>Firebase</p>
                     </article>
                 </div>
@@ -159,9 +161,40 @@
             <h2>
                 <span>}</span>
             </h2>
-
-
         </section>
+
+        <section id="Projects">
+            <header>
+                <h2>Projects
+                    <span>{</span>
+                </h2>
+                <!-- <span>{</span> -->
+            </header>
+            <div id="projects-scroller">
+                <ul class="projects-scroller-list">
+                    <li class="project-card">
+                        <img src="./imgs/projects/store-product-listing-vuejs.png" alt="Preview of VueJS project">
+                        <p>Example Product listing's page that displays information on various items stored in Firestore cloud database.
+                        </p>
+                        <ul class="tech-used">
+                            <li>Vue.JS</li>
+                            <li>TypeScript</li>
+                            <li>Firestore</li>
+                        </ul>
+                    </li>
+                    <li class="project-card"></li>
+                    <li class="project-card"></li>
+                    <li class="project-card"></li>
+                    <li class="project-card"></li>
+                    <li class="project-card"></li>
+                </ul>
+                
+            </div>
+            <h2>
+                <span>}</span>
+            </h2>
+        </section>
+
         <script src="scripts/landing_page.js"></script>
     </main>
 
