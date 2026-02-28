@@ -1,10 +1,12 @@
+/* #projects {
+    margin-top: 3.5rem;
+} */
 
 #projects-scroller {
-    display: flex;
-    flex-flow: row nowrap;
-    /* overflow-y: hidden; */
-    height: 80vh;
-    gap: 2rem;
+    height: 70vh;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 0;
 }
 
 .projects-scroller-list {
@@ -12,7 +14,11 @@
     height: 100%;
     padding: 0;
     margin: 0 auto;
-    
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2rem;
+
+
 }
 
 .project-card {
@@ -22,6 +28,8 @@
     display: flex;
     flex-flow: column nowrap;
     width: 40%;
+    max-height: 80%;
+    justify-content: space-between;
 }
 
 .project-card:hover {
@@ -31,11 +39,12 @@
 }
 
 .project-card img {
-    flex: 1 1 1
+    flex: 1 1 16rem;
 }
 
 .project-card p {
-    flex: 2;
+    flex: 1;
+    margin: 0.5rem;
 }
 
 .project-card ul {
@@ -59,4 +68,4 @@
     border-radius: 0.5rem;
 }
 
-#projects 
+#projects
