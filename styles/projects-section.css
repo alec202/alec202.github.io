@@ -3,7 +3,7 @@
 } */
 
 #projects-scroller {
-    height: 70vh;
+    max-height: 70vh;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 0;
@@ -18,7 +18,6 @@
     flex-flow: row nowrap;
     gap: 2rem;
 
-
 }
 
 .project-card {
@@ -28,8 +27,11 @@
     display: flex;
     flex-flow: column nowrap;
     width: 40%;
-    max-height: 80%;
-    justify-content: space-between;
+    height: 80%;
+    justify-content: center;
+    flex: 1;
+    border: 1px solid transparent;
+    gap: 0.6rem;
 }
 
 .project-card:hover {
@@ -39,17 +41,15 @@
 }
 
 .project-card img {
-    flex: 1 1 16rem;
+    width: 25vw;
+    margin-bottom: 0.2rem;
 }
 
 .project-card p {
-    flex: 1;
     margin: 0.5rem;
+    max-height: fit-content;
 }
 
-.project-card ul {
-    flex: 2;
-}
 
 .tech-used {
     padding: 0;
@@ -66,5 +66,8 @@
     color: black;
     background-color: #eb95b1d9;
     border-radius: 0.5rem;
-}
+    flex: 1 1 fit-content;
+    max-width: fit-content;
+    max-height: 100%;
 
+}

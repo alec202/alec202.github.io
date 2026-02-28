@@ -164,6 +164,7 @@ nav li:last-of-type {
 
 /* landing page */
 #landing {
+    margin-top: -3.5rem;
     justify-content: center;
 }
 
