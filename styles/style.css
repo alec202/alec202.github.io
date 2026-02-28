@@ -59,6 +59,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -3.5rem;
 }
 
 section div {
@@ -105,7 +106,7 @@ h2 span {
 
 /* Navigation Menu */
 nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     border-bottom: 3px solid white;
@@ -257,3 +258,4 @@ nav li:last-of-type {
 .skills-card img {
     width: 1.5rem;
 }
+
