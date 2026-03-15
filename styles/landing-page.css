@@ -1,0 +1,41 @@
+/* landing page */
+#landing {
+    margin-top: -3rem;
+    justify-content: center;
+}
+
+#landing h1 {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+#landing h3 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 1rem;
+}
+
+#landing button {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #ff85a2de;
+    border: 0.1rem solid #f44e85;
+}
+
+#landing button:hover {
+    cursor: pointer;
+    background-color: #f48fb1;
+    box-shadow: 0 0 1rem #f48fb1;
+}
+
+#landing > div button {
+    max-width: fit-content;
+}
