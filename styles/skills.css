@@ -1,5 +1,6 @@
 
 /* Skills section */
+
 .all-skills-container {
     display: flex;
     flex-direction: row;
@@ -31,8 +32,8 @@
     /* max-height: 29rem; */
     border-radius: 1rem;
     border: 2px solid #f48fb1;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 /* .skills-card:first-of-type {
@@ -54,11 +55,11 @@
     align-items: baseline;
     gap: 1rem;
     border-radius: 0.6rem;
-    padding: 0rem 0.6rem 0rem 0.1rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
     font-size: 1.5rem;
     margin: 0;
 }
 
-.skills-card img {
+.skills-card > img {
     width: 1.5rem;
 }
