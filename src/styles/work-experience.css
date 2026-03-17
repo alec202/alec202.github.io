@@ -1,0 +1,45 @@
+#click-a-job::after {
+    display: inline-block;
+    margin-left: 0.5rem;
+    content: "";
+    background-image: url("../imgs/icons/content_icons/90deg-right-down-arrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+    width: 1em;
+    height: 1em;
+}
+
+
+.outer-work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 1rem;
+}
+
+.jobs-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.jobs-grid> :nth-child(even) {
+    background-color: #110d0f;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+}
+
+.jobs-grid> :nth-child(odd) {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+}
+
+.job-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
