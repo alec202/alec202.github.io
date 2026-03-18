@@ -2,6 +2,7 @@
 My Personal Website
 
 # Open Tasks:
+1. For work experience section add company underneath job title.
 1. Fix Skills section so that each skills box is a 2 column grid, have a vertical pink line seperator between the 2 columns.
 3.  make scroll bar not be present. This may be a MacOS problem. Will need to try on Dad's laptop.
 3. Utilize CSS query selectors to create the mobile layout using the template designed.
