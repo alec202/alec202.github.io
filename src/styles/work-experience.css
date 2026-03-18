@@ -1,3 +1,9 @@
+#work-experience {
+    height: 100vh;
+    overflow-y: hidden;
+    justify-content: start;
+}
+
 #click-a-job::after {
     display: inline-block;
     margin-left: 0.5rem;
@@ -15,31 +21,38 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-left: 1rem;
+    gap: 3rem;
+    overflow-y: hidden;
+    max-height: 65vh;
 }
 
-.jobs-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.jobs-grid> :nth-child(even) {
-    background-color: #110d0f;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 1rem;
-}
-
-.jobs-grid> :nth-child(odd) {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 1rem;
-}
-
-.job-title {
+.job-title-card {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    height: 15%;
+    margin: 0;
+    border: 2px solid transparent;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.currently-clicked-job {
+    background-color: #352c31;
+    border: 2px solid #f44e85;
+    border-radius: 10px;
+
+}
+
+
+.job-title-card>h3,
+.job-title-card>p {
+    margin: 0;
+
+}
+
+.job-description {
+    overflow-y: scroll;
+    padding-right: 1rem;
 }

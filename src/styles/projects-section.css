@@ -1,6 +1,6 @@
-/* #projects {
-    margin-top: 3.5rem;
-} */
+#projects {
+    justify-content: start;
+}
 
 #projects-scroller {
     max-height: 70vh;

@@ -95,7 +95,11 @@ h3 {
     color: #ffffff;
 }
 
+h2 {
+    margin-block: 0;
+}
 h2 span {
     color: #f48fb1;
+    margin-block: 0;
 }
 
