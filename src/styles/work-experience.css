@@ -31,11 +31,15 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    height: 15%;
+    height: 13%;
     margin: 0;
     border: 2px solid transparent;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+}
+
+.job-title-card>h3 {
+    flex-basis: 60%;
 }
 
 .currently-clicked-job {
@@ -49,10 +53,50 @@
 .job-title-card>h3,
 .job-title-card>p {
     margin: 0;
+}
 
+.job-time-held {
+    color: rgba(243, 240, 240, 0.842);
+}
+
+.job-company {
+    color: white;
+    font-size: 0.9em;
 }
 
 .job-description {
     overflow-y: scroll;
     padding-right: 1rem;
+    color: seashell;
+}
+
+.job-description>p {
+    margin-block-start: 0;
+}
+
+.job-description span {
+    color: seashell;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1450px) {
+
+    .section-content {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .outer-work-grid {
+        grid-template-columns: 1.4fr 2fr;
+    }
+
+    /* #work-experience {
+        justify-content: center;
+    } */
+
+    .job-title-card {
+        max-width: 734px;
+        height: 19%;
+    }
+
 }
