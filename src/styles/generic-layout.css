@@ -46,9 +46,6 @@ section {
     scroll-snap-align: center;
 }
 
-section span {
-    color: white;
-}
 
 /* each section generic */
 section {

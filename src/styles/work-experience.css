@@ -26,6 +26,16 @@
     max-height: 65vh;
 }
 
+#jobs-grid-pc {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .job-title-card {
     display: flex;
     flex-flow: row wrap;
@@ -33,25 +43,28 @@
     align-items: center;
     height: 13%;
     margin: 0;
-    border: 2px solid transparent;
+    border: 2px solid rgb(185, 179, 179);
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    border-radius: 10px;
+    width: 100%;
+    margin: 1.25rem 0 1.25rem 0;
+
 }
 
-.job-title-card>h3 {
+.job-title-card h3 {
     flex-basis: 60%;
 }
 
-.currently-clicked-job {
+.job-selected {
     background-color: #352c31;
     border: 2px solid #f44e85;
     border-radius: 10px;
-
 }
 
 
-.job-title-card>h3,
-.job-title-card>p {
+.job-title-card h3,
+.job-title-card p {
     margin: 0;
 }
 
@@ -70,11 +83,11 @@
     color: seashell;
 }
 
-.job-description>p {
+.job-description p {
     margin-block-start: 0;
 }
 
-.job-description span {
+.job-description #job-title {
     color: seashell;
     text-decoration: underline;
 }
@@ -97,6 +110,7 @@
     .job-title-card {
         max-width: 734px;
         height: 19%;
+        margin: 2rem 0 2rem 0;
     }
 
 }
