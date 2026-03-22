@@ -1,116 +1,42 @@
 #work-experience {
-    height: 100vh;
-    overflow-y: hidden;
     justify-content: start;
 }
 
-#click-a-job::after {
-    display: inline-block;
-    margin-left: 0.5rem;
-    content: "";
-    background-image: url("../imgs/icons/content_icons/90deg-right-down-arrow.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    vertical-align: bottom;
-    width: 1em;
-    height: 1em;
-}
-
-
-.outer-work-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 1rem;
-    gap: 3rem;
-    overflow-y: hidden;
-    max-height: 65vh;
+.section-content {
+    padding: 2rem;
+    margin: 0 auto;
+    height: 80vh;
 }
 
 #jobs-grid-pc {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; */
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.job-title-card {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 13%;
-    margin: 0;
-    border: 2px solid rgb(185, 179, 179);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    height: 100%;
     width: 100%;
-    margin: 1.25rem 0 1.25rem 0;
-
+    overflow-y: scroll;
 }
 
-.job-title-card h3 {
-    flex-basis: 60%;
-}
-
-.job-selected {
-    background-color: #352c31;
+#jobs-grid-pc>li {
     border: 2px solid #f44e85;
     border-radius: 10px;
+    padding: 1rem;
 }
 
+.job-header-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
 
-.job-title-card h3,
-.job-title-card p {
+.job-header-info>h3,
+.job-header-info>h4 {
     margin: 0;
-}
-
-.job-time-held {
-    color: rgba(243, 240, 240, 0.842);
-}
-
-.job-company {
-    color: white;
-    font-size: 0.9em;
-}
-
-.job-description {
-    overflow-y: scroll;
-    padding-right: 1rem;
-    color: seashell;
-}
-
-.job-description p {
-    margin-block-start: 0;
-}
-
-.job-description #job-title {
-    color: seashell;
-    text-decoration: underline;
-}
-
-@media screen and (min-width: 1450px) {
-
-    .section-content {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-
-    .outer-work-grid {
-        grid-template-columns: 1.4fr 2fr;
-    }
-
-    /* #work-experience {
-        justify-content: center;
-    } */
-
-    .job-title-card {
-        max-width: 734px;
-        height: 19%;
-        margin: 2rem 0 2rem 0;
-    }
-
+    margin-bottom: 0.5rem;
+    padding: 0;
 }
