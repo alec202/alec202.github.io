@@ -2,11 +2,12 @@
     justify-content: start;
 }
 
-.section-content {
+#work-experience>.total-content>.section-content {
     padding: 1rem;
-    margin: 0 auto;
-    height: 80vh;
+    margin: 1rem auto;
+    height: 70vh;
     border-bottom: solid 1px whitesmoke;
+    border-top: solid 1px whitesmoke;
     border-radius: 0.7rem;
 }
 
