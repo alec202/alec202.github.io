@@ -43,3 +43,9 @@
     margin-bottom: 0.5rem;
     padding: 0;
 }
+
+@media screen and (max-width: 394px){
+    #work-experience>.total-content>.section-content {
+        padding: 1rem 0;
+    }
+}
