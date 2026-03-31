@@ -27,6 +27,12 @@
     border-radius: 0.5rem;
     background-color: #ff85a2de;
     border: 0.1rem solid #f44e85;
+
+}
+
+#landing button a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 #landing button:hover {
