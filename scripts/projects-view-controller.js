@@ -5,8 +5,4 @@
 const productListingPage = document.querySelector("#vue-product-listing");
 productListingPage.addEventListener("click", () => document.location.href = "https://gvsu-cis371.github.io/project5-teamteam/");
 
-const movieReviewer = document.querySelector("#movie-reviewer")
-movieReviewer.addEventListener("click", () => document.location.href = "https://github.com/alec202/movieReviewerApp");
 
-const storeDatabaseManagementSystem = document.querySelector("#store-database-management-system");
-storeDatabaseManagementSystem.addEventListener("click", () => document.location.href = "https://github.com/alec202/grocery_store_database_management_system");
