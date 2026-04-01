@@ -7,17 +7,17 @@
     justify-content: space-around;
     align-items: start;
     height: 65vh;
+    margin-bottom: 2rem;
 }
 
 /* #skills h3 > svg {
     font-size: 1em;
 } */
 
+
 #skills h3 {
     margin-bottom: 0;
     border-bottom: 2px solid #f48fb1;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .skills-container {
