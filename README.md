@@ -2,8 +2,7 @@
 My Personal Website
 
 # Open Tasks:
-1. change contact section to be a footer on the bottom of webapp.
-2. add project descriptions to each of my projects so users know what they are without having to click and read through the code.
-1. Fix Skills section so that each skills box is a 2 column grid, have a vertical pink line seperator between the 2 columns.
+1. make skills section a dropdown for each skills container using JS
+1. Make sure headers and ending brackets are not overflowing (cut off from screen).
 3.  make scroll bar not be present. This may be a MacOS problem. Will need to try on Dad's laptop.
 3. Utilize CSS query selectors to create the mobile layout using the template designed.
