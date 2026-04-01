@@ -3,7 +3,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
 }
 
 #contact-icons-flex > li {
@@ -21,7 +21,6 @@
 
 #contact-icons-flex a {
     text-decoration: none;
-    : center;
 }
 
 #contact-icons-flex a:hover {
