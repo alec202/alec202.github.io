@@ -10,16 +10,26 @@
     list-style-type: none;
     margin: none;
     padding: none;
-    width: 4rem;
+    width: fit-content;
 }
 
 #contact-icons-flex img {
-    width: 100%;
+    width: 2rem;
+    margin-right: 0.4rem;
+    align-content: start;
+}
+
+#contact-icons-flex a {
+    text-decoration: none;
+    : center;
+}
+
+#contact-icons-flex a:hover {
+    cursor: pointer;
 }
 
 /* #email-address {
     display: flex;
     flex-direction: row;
 } */
-
 
