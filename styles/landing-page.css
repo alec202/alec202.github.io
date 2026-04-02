@@ -10,11 +10,26 @@
     font-weight: normal;
 }
 
-.links-container {
+#landing .links-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     gap: 1rem;
+}
+
+#landing #contact-info-phone {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#landing #contact-info-phone a {
+    color: #f48fb1;
+    text-decoration: none;
+}
+
+#landing .links-container img {
+    width: 1rem;
 }
 
 #landing button {
@@ -24,6 +39,7 @@
     border-radius: 0.5rem;
     background-color: #f48fb1;
     border: 0.1rem solid #f44e85;
+    
 }
 
 #landing button a {
