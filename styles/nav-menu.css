@@ -2,17 +2,12 @@
 nav {
     position: fixed;
     top: 0;
-    left: 0;
-    border-bottom: 3px solid white;
-    background-color: #121212;
-    height: 3.5rem;
-    width: 100vw;
-    margin: 0;
-    overflow: hidden;
+    right: 0;
+    margin-right: 1rem;
 }
 
 nav ul {
-    display: flex;
+    display: none;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
@@ -21,6 +16,9 @@ nav ul {
     width: 100%;
 }
 
+nav span {
+    font-size: 3.5rem;
+}
 
 
 /* style navigation menu { */
@@ -54,6 +52,30 @@ nav li:last-of-type {
     border-left: 1px solid white;
 }
 
-/* End of Nav style } */
+@media screen and (width > 414px) {
 
+    nav {
+        border-bottom: 3px solid white;
+        background-color: #121212;
+        top: 0;
+        left: 0;
+        height: 3.5rem;
+        width: 100vw;
+        margin: 0;
+        overflow: hidden;
+        font-size: inherit;
 
+    }
+
+    #contact-nav-menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav span {
+        display: none;
+    }
+}
