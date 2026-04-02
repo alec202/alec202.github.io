@@ -27,6 +27,7 @@
     height: 100%;
     list-style-type: none;
     text-align: center;
+    width: fit-content;
 }
 
 /* What to use for resizing the li elements, NOT the li */
@@ -52,10 +53,12 @@
 }
 
 .project-card img {
-    height: 43%;
+    height: 100%;
+    width: 100%;
     margin-bottom: 0.2rem;
     border: 1px solid transparent;
     border-radius: 0.5rem;
+    object-fit: cover;
     /* border-left: 5rem solid #903371d4;
     border-right: 5rem solid #903371d4 */
 }
