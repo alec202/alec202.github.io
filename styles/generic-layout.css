@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
 /*
 Source - https://stackoverflow.com/a/21441074
 Posted by Josh Crozier
@@ -54,7 +66,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 3.6875rem 1rem 3rem 1rem;
+    padding: 0 1rem 0 1rem;
 }
 
 section > div {
@@ -94,8 +106,8 @@ h3 {
 h2 {
     margin-block: 0;
 }
+
 h2 span {
     color: #f48fb1;
     margin-block: 0;
 }
-
