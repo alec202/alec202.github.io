@@ -1,6 +1,3 @@
-#projects {
-    justify-content: center;
-}
 
 #projects p {
     margin-block-start: 0.5rem;
@@ -29,6 +26,7 @@
     text-align: center;
 }
 
+/* What to use for resizing the li elements, NOT the li */
 .project-card a {
     list-style-type: none;
     margin: 0;
@@ -51,7 +49,7 @@
 }
 
 .project-card img {
-    width: 100%;
+    height: 43%;
     margin-bottom: 0.2rem;
     border: 1px solid transparent;
     border-radius: 0.5rem;
