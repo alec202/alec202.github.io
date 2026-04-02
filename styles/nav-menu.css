@@ -16,8 +16,11 @@ nav ul {
     width: 100%;
 }
 
-nav span {
+nav button {
     font-size: 3.5rem;
+    background-color: inherit;
+    color: #f48fb1;
+    border: unset;
 }
 
 
@@ -75,7 +78,7 @@ nav li:last-of-type {
         display: flex;
     }
 
-    nav span {
+    nav button {
         display: none;
     }
 }

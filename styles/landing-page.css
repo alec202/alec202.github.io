@@ -22,9 +22,8 @@
     font-weight: 600;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
-    background-color: #ff85a2de;
+    background-color: #f48fb1;
     border: 0.1rem solid #f44e85;
-
 }
 
 #landing button a {
@@ -42,3 +41,10 @@
     max-width: fit-content;
 }
 
+
+@media screen and (width > 414px) {
+    #landing button {
+        background-color: #ff85a2de;
+
+    }
+}
