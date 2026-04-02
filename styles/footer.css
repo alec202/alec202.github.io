@@ -7,6 +7,8 @@ footer {
 
 @media screen and (width > 414px) {
     footer {
+        /* HIDING THE FOOTER IS THE LINE BELOW. ASK AVA FOR HER INPUT */
+        display: none
         visibility: visible;
         position: fixed;
         bottom: 0;

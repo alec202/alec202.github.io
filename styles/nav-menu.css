@@ -70,9 +70,9 @@ nav li:last-of-type {
 
     }
 
-    #contact-nav-menu {
+    /* #contact-nav-menu {
         display: none;
-    }
+    } */
 
     nav ul {
         display: flex;

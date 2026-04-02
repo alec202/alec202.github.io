@@ -9,7 +9,7 @@
 
 
 .projects-scroller-list {
-    width: 100%;
+    width: 100vw;
     height: 68vh;
     padding: 0;
     margin: 0 auto;
@@ -27,7 +27,6 @@
     height: 100%;
     list-style-type: none;
     text-align: center;
-    width: fit-content;
 }
 
 /* What to use for resizing the li elements, NOT the li */
@@ -36,7 +35,7 @@
     margin: 0;
     display: flex;
     flex-flow: column nowrap;
-    width: 30vw;
+    width: fit-content;
     justify-content: start;
     align-items: center;
     border-radius: 0.5rem;
@@ -45,6 +44,7 @@
     border: 1px solid transparent;
     padding: 0.25rem;
     height: 100%;
+    text-decoration: none;
 }
 
 .project-card a:hover {
@@ -77,7 +77,8 @@
 
 .project-card p {
     margin: 0.5rem;
-    color: whitesmoke
+    color: whitesmoke;
+    text-align: left;
 }
 
 
@@ -101,4 +102,8 @@
     max-width: fit-content;
     height: 2.2rem;
 
+}
+
+@media and screen (width > 414px) {
+    
 }
