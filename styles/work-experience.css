@@ -2,15 +2,19 @@
     justify-content: center;
 }
 
-#work-experience>.total-content>.section-content {
+#work-experience > .total-content {
     padding: 1rem;
-    margin: 1rem auto;
-    height: 70vh;
+}
+
+#work-experience > .total-content > .section-content {
+    padding: 2rem;
+    margin: 2rem auto;
+    height: 60vh;
     border-bottom: solid 1px whitesmoke;
     border-top: solid 1px whitesmoke;
     border-radius: 0.7rem;
+    width: 85%
 }
-
 #jobs-grid-pc {
     list-style-type: none;
     margin: 0;
@@ -23,7 +27,7 @@
     overflow-y: scroll;
 }
 
-#jobs-grid-pc>li {
+#jobs-grid-pc > li {
     border: 2px solid #f44e85;
     border-radius: 10px;
     padding: 1rem;
@@ -37,15 +41,15 @@
     border-bottom: 1px solid white;
 }
 
-.job-header-info>h3,
-.job-header-info>h4 {
+.job-header-info > h3,
+.job-header-info > h4 {
     margin: 0;
     margin-bottom: 0.5rem;
     padding: 0;
 }
 
-@media screen and (max-width: 394px){
-    #work-experience>.total-content>.section-content {
+@media screen and (max-width: 394px) {
+    #work-experience > .total-content > .section-content {
         padding: 1rem 0;
     }
 }
