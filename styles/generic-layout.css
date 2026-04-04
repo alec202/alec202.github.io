@@ -27,7 +27,6 @@ body {
     height: 100%;
     margin: 0;
     width: 100%;
-    overflow: hidden;
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
@@ -49,6 +48,7 @@ main {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     overflow-y: scroll;
+    overflow-x: hidden;
     scroll-padding: 0;
     height: 100%;
     width: 100%;

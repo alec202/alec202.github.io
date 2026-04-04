@@ -62,6 +62,9 @@
 @media screen and (width > 414px) {
     #landing button {
         background-color: #ff85a2de;
-
+    }
+    
+    #contact-info-phone {
+        visibility: collapse;
     }
 }
