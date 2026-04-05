@@ -135,4 +135,13 @@ nav li:last-of-type {
         height: 4.5rem;
     }
 
+    nav li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+
+    }
+
+
 }
