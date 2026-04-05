@@ -1,11 +1,12 @@
 /* Navigation Menu */
-#nav--header {
+#header-for-nav {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     padding-right: 1rem;
     width: 100%;
 }
+
 nav {
     width: 100%;
     display: flex;
@@ -19,8 +20,20 @@ nav button {
     background-color: inherit;
     color: #f48fb1;
     border: unset;
-    /* text-align: right; */
     margin-left: auto;
+    padding: 0;
+}
+
+.header--options {
+    translate: 100vw;
+
+}
+.header--close-nav {
+    color: rgb(234, 71, 112);
+}
+
+.header--open-nav {
+    visibility: collapse;
 }
 
 nav ul {
@@ -69,7 +82,7 @@ nav li:last-of-type {
 
 @media screen and (width > 414px) {
 
-    #nav--header {
+    #header-for-nav {
         border-bottom: 3px solid white;
         background-color: #121212;
         top: 0;
@@ -79,7 +92,16 @@ nav li:last-of-type {
         margin: 0;
         overflow: hidden;
         font-size: inherit;
+        padding: 0;
 
+    }
+
+    .header--options {
+        translate: 0;
+    }
+
+    .header--close-nav{
+        display: none;
     }
 
     nav ul {
