@@ -9,6 +9,7 @@
 
 nav {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,16 +27,14 @@ nav button {
 
 .header--options {
     translate: 100vw;
-    transition: translate 0.5s ease-in-out
-
+    transition: translate 0.5s ease-in-out;
+    height: 100%;
 }
+
 .header--close-nav {
     color: rgb(234, 71, 112);
 }
 
-.header--open-nav {
-    visibility: collapse;
-}
 
 nav ul {
     display: flex;
@@ -97,11 +96,15 @@ nav li:last-of-type {
 
     }
 
+    .header--open-nav {
+        visibility: collapse;
+    }
+
     .header--options {
         translate: 0;
     }
 
-    .header--close-nav{
+    .header--close-nav {
         display: none;
     }
 
@@ -123,6 +126,13 @@ nav li:last-of-type {
     nav li:nth-of-type(2) {
         border-right: 1px solid white;
         border-left: none;
+    }
+
+}
+
+@media screen and (width > 1400px) {
+    #header-for-nav {
+        height: 4.5rem;
     }
 
 }
