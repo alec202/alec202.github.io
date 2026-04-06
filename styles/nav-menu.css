@@ -23,12 +23,25 @@ nav button {
     border: unset;
     margin-left: auto;
     padding: 0;
+    transition: 
+    opacity 0.2s ease-in-out,
+    display 0.2s ease-in-out;
 }
 
 .header--options {
     translate: 100vw;
-    transition: translate 0.5s ease-in-out;
-    height: 100%;
+    transition: translate 0.2s ease-in-out;
+    height: 100vh;
+    background-color: #0a0a0a;
+}
+
+.visibility-collapse {
+    opacity: 0;
+    display: none;
+}
+
+#header--open-nav[aria-expanded='true'] + .header--options {
+    translate: 0;
 }
 
 .header--close-nav {

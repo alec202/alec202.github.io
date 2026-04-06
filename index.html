@@ -21,9 +21,11 @@
 <body>
     <header id="header-for-nav">
         <nav>
-            <button class="header--open-nav" id="hamburger-menu-icon">☰</button>
+            <span id="nav-label" hidden>Navigation</span>
 
-            <div class="header--options">
+            <button id="header--open-nav" class="header--open-nav" id="hamburger-menu-icon" aria-expanded="false" aria-labelledby="nav-label">☰</button>
+
+            <div id="header--options" class="header--options" role="dialog" aria-labelledby="nav-label">
 
                 <button class="header--close-nav">X</button>
                 <ul>
@@ -539,6 +541,7 @@
         <script src="scripts/landing_page.js"></script>
         <script src="scripts/projects-view-controller.js"></script>
         <script src="scripts/experience.js"></script>
+        <script src="scripts/nav-menu.js"></script>
     </main>
 
 
