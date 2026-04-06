@@ -23,15 +23,15 @@ nav button {
     border: unset;
     margin-left: auto;
     padding: 0;
-    transition: 
-    opacity 0.2s ease-in-out,
-    display 0.2s ease-in-out;
+    transition:
+        opacity 0.2s ease-in-out,
+        display 0.2s ease-in-out;
 }
 
 .header--options {
     translate: 100vw;
     transition: translate 0.2s ease-in-out;
-    height: 100vh;
+    height: 0;
     background-color: #0a0a0a;
 }
 
@@ -47,6 +47,8 @@ nav button {
 
 #header--open-nav[aria-expanded='true'] + .header--options {
     translate: 0;
+    height: 100vh;
+
 }
 
 .header--close-nav {
