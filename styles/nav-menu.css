@@ -48,7 +48,6 @@ nav button {
 #header--open-nav[aria-expanded='true'] + .header--options {
     translate: 0;
     height: 100vh;
-
 }
 
 .header--close-nav {
