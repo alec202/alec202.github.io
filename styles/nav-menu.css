@@ -35,7 +35,12 @@ nav button {
     background-color: #0a0a0a;
 }
 
-.visibility-collapse {
+#header--open-nav[aria-expanded="false"] {
+    opacity: 1;
+    display: block;
+}
+
+#header--open-nav[aria-expanded="true"] {
     opacity: 0;
     display: none;
 }

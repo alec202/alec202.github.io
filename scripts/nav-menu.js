@@ -1,9 +1,14 @@
-const openNavButton = document.getElementById("header--open-nav");
-const headerOptionsNav = document.getElementById("header--options");
+const openNavBttn = document.getElementById("header--open-nav");
+const closeNavBttn = document.getElementById("header--close-nav");
 
 function toggleNavOpen() {
-    openNavButton.setAttribute("aria-expanded", "true");
-    openNavButton.classList.toggle("visibility-collapse");
+    openNavBttn.setAttribute("aria-expanded", "true");
 }
 
-openNavButton.addEventListener("click", toggleNavOpen)
+function toggleNavClosed() {
+    openNavBttn.setAttribute("aria-expanded", "false");
+}
+
+openNavBttn.addEventListener("click", toggleNavOpen);
+
+closeNavBttn.addEventListener("click", toggleNavClosed);
