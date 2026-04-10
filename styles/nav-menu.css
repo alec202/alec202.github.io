@@ -101,7 +101,7 @@ nav li {
         padding: 0;
 
     }
-    
+
     .header--open-nav {
         visibility: collapse;
     }
@@ -132,7 +132,6 @@ nav li {
 
     nav li {
         border-right: 2px solid white;
-        height: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -146,5 +145,9 @@ nav li {
 @media screen and (width > 1400px) {
     #header-for-nav {
         height: 4.5rem;
+    }
+
+    nav li {
+        height: 3rem;
     }
 }
