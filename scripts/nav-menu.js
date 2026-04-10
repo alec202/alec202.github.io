@@ -32,6 +32,10 @@ function toggleNavClosed() {
     setTimeout(() => {
         headerOptions.style.transition = 'none';
     }, 750);
+
+    headerOptions.addEventListener("transitioned", () => {
+        headerOptions.style.transition = 'none';
+    }, { once: true });
 }
 
 openNavBttn.addEventListener("click", toggleNavOpen);
