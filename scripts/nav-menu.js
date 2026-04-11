@@ -1,8 +1,8 @@
-const 
+const biggerScreenWidthCutOff = "764px"
 
 const openNavBttn = document.getElementById("header--open-nav");
 const closeNavBttn = document.getElementById("header--close-nav");
-const mediaIsMobile = window.matchMedia("(width > 414px)")
+const mediaIsMobile = window.matchMedia(`(width > ${biggerScreenWidthCutOff})`)
 const headerOptions = document.getElementById("header--options");
 const mainContent = document.querySelector("main");
 
