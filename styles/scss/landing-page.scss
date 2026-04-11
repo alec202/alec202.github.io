@@ -1,0 +1,70 @@
+/* landing page */
+
+#landing h1 {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+#landing h3 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#landing .links-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 1rem;
+}
+
+#landing #contact-info-phone {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#landing #contact-info-phone a {
+    color: #f48fb1;
+    text-decoration: none;
+}
+
+#landing .links-container img {
+    width: 1rem;
+}
+
+#landing button {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #f48fb1;
+    border: 0.1rem solid #f44e85;
+    color: #0a0a0a;
+
+}
+
+#landing button a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#landing button:hover {
+    cursor: pointer;
+    background-color: #f48fb1;
+    box-shadow: 0 0 1rem #f48fb1;
+}
+
+#landing>div button {
+    max-width: fit-content;
+}
+
+
+@media screen and (width >414px) {
+    #landing button {
+        background-color: #ff85a2de;
+    }
+
+    #contact-info-phone {
+        visibility: collapse;
+    }
+}

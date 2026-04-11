@@ -1,55 +1,58 @@
 #work-experience {
-    justify-content: center;
+  justify-content: center;
 }
 
 #work-experience > .total-content {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 #work-experience > .total-content > .section-content {
-    padding: 2rem;
-    margin: 2rem auto;
-    height: 60vh;
-    border-bottom: solid 1px whitesmoke;
-    border-top: solid 1px whitesmoke;
-    border-radius: 0.7rem;
-    width: 85%
+  margin: 2rem auto;
+  padding: 1rem 0;
+  height: 60vh;
+  border-bottom: solid 1px whitesmoke;
+  border-top: solid 1px whitesmoke;
+  border-radius: 0.7rem;
+  width: 85%;
 }
+
 #jobs-grid-pc {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    height: 100%;
-    width: 100%;
-    overflow-y: scroll;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
 }
 
 #jobs-grid-pc > li {
-    border: 2px solid #f44e85;
-    border-radius: 10px;
-    padding: 1rem;
+  border: 2px solid #f44e85;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 .job-header-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid white;
 }
 
 .job-header-info > h3,
 .job-header-info > h4 {
-    margin: 0;
-    margin-bottom: 0.5rem;
-    padding: 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
 }
 
 @media screen and (max-width: 394px) {
-    #work-experience > .total-content > .section-content {
-        padding: 1rem 0;
-    }
+  #work-experience > .total-content > .section-content {
+    padding: 2rem;
+  }
 }
+
+/*# sourceMappingURL=work-experience.css.map */

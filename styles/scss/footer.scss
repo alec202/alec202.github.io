@@ -1,3 +1,5 @@
+@use 'variables' as var;
+
 footer {
   visibility: hidden;
   height: 0;
@@ -5,7 +7,7 @@ footer {
   overflow: hidden;
 }
 
-@media screen and (width > 764px) {
+@media screen and (width > var.$smallerScreenSize) {
   footer {
     visibility: visible;
     position: fixed;
@@ -49,6 +51,5 @@ footer {
       flex-direction: row;
   } */
 }
-
 
 /*# sourceMappingURL=footer.css.map */
