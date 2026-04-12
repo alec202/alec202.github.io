@@ -1,4 +1,6 @@
 /* Navigation Menu */
+@use 'variables' as vars;
+
 #header-for-nav {
     position: fixed;
     top: 0;
@@ -86,7 +88,7 @@ nav li {
     text-align: center;
 }
 
-@media screen and (width > 414px) {
+@media screen and (width > vars.$smallerScreenSize) {
 
     #header-for-nav {
         border-bottom: 3px solid white;
@@ -142,7 +144,7 @@ nav li {
     }
 }
 
-@media screen and (width > 1400px) {
+@media screen and (width > vars.$largerScreenSize) {
     #header-for-nav {
         height: 4.5rem;
     }

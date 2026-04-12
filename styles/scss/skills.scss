@@ -1,4 +1,5 @@
 /* Skills section */
+@use 'variables' as vars;
 #skills {
     padding-top: 0.5rem;
     justify-content: center;
@@ -61,3 +62,9 @@
 /* .front-end-skills article:last-of-type {
     width: fit-content;
 } */
+
+@media screen and (width > vars.$smallerScreenSize) {
+    #skills h3 {
+        position: static;
+    }
+}

@@ -1,3 +1,5 @@
+@use 'variables' as vars;
+
 #work-experience {
     justify-content: center;
 }
@@ -49,7 +51,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 394px) {
+@media screen and (width > vars.$smallerScreenSize) {
     #work-experience > .total-content > .section-content {
         padding: 2rem;
     }

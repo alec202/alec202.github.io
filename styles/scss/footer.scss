@@ -1,4 +1,4 @@
-@use 'variables' as var;
+@use 'variables' as vars;
 
 footer {
   visibility: hidden;
@@ -7,7 +7,7 @@ footer {
   overflow: hidden;
 }
 
-@media screen and (width > var.$smallerScreenSize) {
+@media screen and (width > vars.$smallerScreenSize) {
   footer {
     visibility: visible;
     position: fixed;

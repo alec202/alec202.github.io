@@ -1,3 +1,5 @@
+@use 'variables' as vars;
+
 #projects {
     padding-top: 0.5rem;
 }
@@ -104,4 +106,4 @@
 
 }
 
-@media screen and (width > 414px) {}
+@media screen and (width > vars.$smallerScreenSize) {}

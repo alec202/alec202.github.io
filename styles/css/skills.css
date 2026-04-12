@@ -60,5 +60,10 @@
 /* .front-end-skills article:last-of-type {
     width: fit-content;
 } */
+@media screen and (width > 764px) {
+  #skills h3 {
+    position: static;
+  }
+}
 
 /*# sourceMappingURL=skills.css.map */

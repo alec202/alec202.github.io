@@ -1,3 +1,5 @@
+@use 'variables' as vars;
+
 *,
 *::before,
 *::after {
@@ -109,7 +111,7 @@ h2 span {
     margin-block: 0;
 }
 
-@media screen and (width > 414px) {
+@media screen and (width > vars.$smallerScreenSize) {
 
     section {
         padding: 0 1rem 0 1rem;

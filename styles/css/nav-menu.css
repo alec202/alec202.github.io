@@ -81,7 +81,7 @@ nav li {
   text-align: center;
 }
 
-@media screen and (width > 414px) {
+@media screen and (width > 764px) {
   #header-for-nav {
     border-bottom: 3px solid white;
     background-color: #121212;

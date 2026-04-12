@@ -2,6 +2,7 @@
 My Personal Website
 
 # Open Tasks:
+1. bug with the skills section sticky text showing over the nav bar. 
 1. skills section will show through the nav bar when scrolling. Likely due to position sticky. NEED TO FIX THIS.
 2. NEED TO UPDATE scss files media queries to use the smallerScreenSizes variable instead of hard coded value like currently doing
 1. make the rest of the website inaccessible when viewing the nav menu
