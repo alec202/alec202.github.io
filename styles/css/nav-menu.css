@@ -18,7 +18,7 @@ nav {
 nav button {
   font-size: 3.5rem;
   display: block;
-  background-color: inherit;
+  background-color: #0a0a0a;
   color: #f48fb1;
   border: unset;
   margin-left: auto;
@@ -94,7 +94,9 @@ nav li {
     font-size: inherit;
     padding: 0;
   }
-  .header--open-nav {
+  #header--open-nav[aria-expanded=false],
+  #header--open-nav[aria-expanded=true] {
+    display: none;
     visibility: collapse;
   }
   .header--options {
@@ -103,6 +105,7 @@ nav li {
   }
   .header--close-nav {
     visibility: collapse;
+    display: none;
   }
   nav ul {
     flex-direction: row;
@@ -111,8 +114,6 @@ nav li {
     visibility: collapse;
     width: 0;
     height: 0;
-  }
-  nav button {
     display: none;
   }
   nav li {
