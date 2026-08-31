@@ -1,0 +1,33 @@
+{
+  "name": "remix-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx remix vite:build",
+    "dev": "node ./server.js",
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "run": "npm run build && npx remix-serve build/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@mantine/core": "^9.5.2",
+    "@mantine/hooks": "^9.5.2",
+    "@remix-run/express": "^2.17.5",
+    "@remix-run/node": "^2.17.5",
+    "@remix-run/react": "^2.17.5",
+    "cross-env": "^10.1.0",
+    "express": "^4.22.2",
+    "isbot": "^4.4.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.17.5",
+    "vite": "^6.4.3"
+  }
+}
