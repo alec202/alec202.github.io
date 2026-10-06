@@ -5,13 +5,9 @@ import {
   Scripts,
 } from "@remix-run/react";
 import AppLayoutShell from "./components/appLayoutShell";
-import { MantineProvider } from "@mantine/core";
-
+import { MantineProvider, createTheme } from "@mantine/core";
 import { colors } from "./colors";
 
-const appTheme = createTheme({
-  primaryColor: colors.primary.background
-})
 
 export default function App() {
   return (
